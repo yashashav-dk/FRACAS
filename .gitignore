@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+.nyc_output
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+.swc/
+
+# Production
+/build
+/dist
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.pem
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.next/cache/
+
+# Misc
+.DS_Store
+*.pem
+
+# Local environment files
+.env*.local
+.env.development
+.env.production
+
+# Vercel
+.vercel
+
+# Prisma
+prisma/*.db
+/prisma/migrations/
+*.sqlite
+*.sqlite-journal
+
+# Logs
+logs
+*.log
+
+# Docker
+docker-volumes/
+.docker/
+
+# Project specific
+uploads/
+temp/
+.temp/
